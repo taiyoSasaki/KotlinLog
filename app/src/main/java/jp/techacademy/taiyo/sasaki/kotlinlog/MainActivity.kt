@@ -138,7 +138,7 @@ class MainActivity : AppCompatActivity() {
         //インターフェイス
         dog.move()
 
-        //課題(Humanクラス)
+        //↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓課題(Humanクラス)↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
         val human = Human("佐々木", 21, "ゲーム")   //名前を佐々木、年齢は21歳で、Humanのインスタンスを作る
         human.say()
         human.think()
@@ -146,6 +146,8 @@ class MainActivity : AppCompatActivity() {
         val human2 = Human("舘石", 24, "サッカー")    //名前を舘石、年齢は24歳で、Humanのインスタンスを作る
         human2.say()
         human2.think()
+
+        //↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑課題の部分↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
     }
 
