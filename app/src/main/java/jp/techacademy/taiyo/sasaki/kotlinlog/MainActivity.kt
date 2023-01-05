@@ -149,6 +149,24 @@ class MainActivity : AppCompatActivity() {
 
         //↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑課題の部分↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
+        //文字列の比較
+        val str1 = "Hello"
+        val str2 = "World"
+        val str3 = "Hello"
+
+        if (str1.equals(str2)) {
+            Log.d("kotlintest", "str1とstr2は一緒です")
+        } else {
+            Log.d("kotlintest", "str1とstr2は異なります")
+        }
+
+        if (str1.equals(str3)) {
+            Log.d("kotlintest", "str1とstr3は一緒です")
+        } else {
+            Log.d("kotlintest", "str1とstr3は異なります")
+        }
+
+
     }
 
     //firstとlast、２つの引数を指定する
